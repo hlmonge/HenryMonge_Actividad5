@@ -22,7 +22,7 @@ COLORES = [
 MEDALLAS = ["🥇", "🥈", "🥉"] + ["📌"] * 17
 
 st.set_page_config(
-    page_title="Estaciones Policiales - Honduras - Henry Monge",
+    page_title="Estaciones Policiales - Honduras",
     page_icon="🚔",
     layout="wide",
 )
@@ -195,7 +195,7 @@ def main():
     # Header
     st.markdown("""
         <div style='text-align:center;padding:1rem 0 0.5rem'>
-            <h1 style='color:#003087;margin:0'>🚔 Estaciones Policiales Cercanas</h1>
+            <h1 style='color:#003087;margin:0'>🚔 Estaciones Policiales Cercanas - Henry Monge</h1>
             <p style='color:#555;margin:0'>Honduras — Policía Nacional</p>
         </div>
         <hr style='margin:0.5rem 0 1.5rem'>
